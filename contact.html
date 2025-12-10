@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCI Drones | Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/logo.png" alt="JCI Logo" style="vertical-align: middle;">
+            <span style="font-weight:bold; color:var(--primary-blue); font-size:1.5rem;">JCI Drones</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="background: linear-gradient(#66b3ff, #004080); min-height: 80vh; display: flex; align-items: center; justify-content: center;">
+        
+        <div class="contact-form">
+            <h2 style="text-align: center; color: var(--dark-blue); margin-bottom: 20px;">Send Us a Message</h2>
+            
+            <form id="contactForm" onsubmit="validateForm(event)">
+                <div class="form-group">
+                    <label for="name">Full Name <span style="color:red">*</span></label>
+                    <input type="text" id="name" class="form-control" placeholder="John Doe">
+                    <div id="err-name" class="error-msg"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address <span style="color:red">*</span></label>
+                    <input type="text" id="email" class="form-control" placeholder="john@example.com">
+                    <div id="err-email" class="error-msg"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number <span style="color:red">*</span></label>
+                    <input type="text" id="phone" class="form-control" placeholder="0812xxxxxxx">
+                    <div id="err-phone" class="error-msg"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject <span style="color:red">*</span></label>
+                    <select id="subject" class="form-control">
+                        <option value="support">Product Support</option>
+                        <option value="sales">Sales Inquiry</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message (Min 20 character) <span style="color:red">*</span></label>
+                    <textarea id="message" class="form-control" rows="5" placeholder="Please provide details..."></textarea>
+                    <div id="err-message" class="error-msg"></div>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" id="tos">
+                    <label for="tos" style="display:inline; font-weight: normal;">I agree to JCI's Terms of Service and Privacy Policy.</label>
+                    <div id="err-tos" class="error-msg"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="/assets/logo.png" alt="JCI Logo" style="vertical-align: middle;">
+                <h3>JCI Drones</h3>
+                <p>Revolutionizing aerial imaging with cutting-edge drone</p>
+                <p>technology for professionals and enthusiasts worldwide</p>
+            </div>
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <p>PT. JCI Jaya</p>
+                <p>Kempinski Tower - 31st Floor</p>
+                <p>Jl. Sudirman no. 1,  Menteng</p>
+                <p>Jakarta 11470</p>
+                <p>-</p>
+                <p>Email: JCIdrone@JCI.com</p>
+                <p>Phone: (021) 123-3456</p>
+                <p>Mobile : 0812-1111-2222</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 20px;">&copy; 2025 JCI Drones. All rights reserved.</div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
