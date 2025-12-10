@@ -106,7 +106,7 @@ main {
 
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/dronehome.png');
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./assets/dronehome.png');
     background-size: cover;
     background-position: center;
     color: white;
