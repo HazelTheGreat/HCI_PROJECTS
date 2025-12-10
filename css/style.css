@@ -77,10 +77,10 @@ main {
 }
 
 .container {
-    max-width: 2000px;
-    margin: 40 auto;
-    padding: 0 20px;
-    min-height: 70vh;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 0px;
+    min-height: 110vh;
 }
 
 .btn {
@@ -106,13 +106,56 @@ main {
 
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./assets/dronehome.png');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
     padding: 500px 20px;
     
+}
+
+/* Update CSS Bagian Hero */
+
+.hero {
+    position: relative; /* Penting: Agar elemen di dalamnya tertata rapi */
+    width: 100%;
+    height: 600px; /* Kamu harus menentukan tinggi hero */
+    display: flex;
+    align-items: center; /* Tengahkan teks secara vertikal */
+    justify-content: center; /* Tengahkan teks secara horizontal */
+    overflow: hidden; /* Potong gambar jika kebesaran */
+    color: white;
+    /* HAPUS baris background-image/linear-gradient yang lama disini */
+}
+
+/* 1. Mengatur Gambar Background */
+.hero-bg {
+    position: absolute; /* Lepas dari aliran dokumen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Agar gambar full & tidak gepeng (crop otomatis) */
+    z-index: 1; /* Layer 1 (Paling Belakang) */
+}
+
+/* 2. Mengatur Gradient Gelap (Supaya tulisan terbaca) */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)); /* Warna gelap transparan */
+    z-index: 2; /* Layer 2 (Di atas gambar, di bawah teks) */
+}
+
+/* 3. Mengatur Konten Teks */
+.hero-content {
+    position: relative;
+    z-index: 3; /* Layer 3 (Paling Depan) */
+    text-align: center;
+    padding: 20px;
 }
 
 .hero h2 { font-size: 3rem; margin-bottom: 10px; }
