@@ -1,32 +1,29 @@
 # Human-Computer Interaction (HCI) Projects
 
-This repository contains documentation, UI/UX research, design prototypes, presentations, and source code for Human-Computer Interaction (HCI) coursework and team projects.
+This repository contains documentation, UI/UX research materials, design prototypes, and source code for Human-Computer Interaction (HCI) projects.
 
 ## Overview
 
-This project applies User-Centered Design (UCD) and Design Thinking principles to analyze user requirements, construct interactive wireframes and prototypes, and evaluate user interface accessibility and usability.
+This repository focuses on user-centered design, user research, wireframing, interactive prototyping, and usability evaluation.
 
-* **Core Focus:** User Research, Wireframing, Interactive Prototyping, Usability Evaluation
-* **Design Methodology:** Design Thinking Framework (Empathize, Define, Ideate, Prototype, Test)
+* **Core Focus:** UI/UX Design, Wireframing, Interactive Prototyping, Usability Testing
+* **Design Approach:** Design Thinking Framework (Empathize, Define, Ideate, Prototype, Test)
 
-## Project & Team Information
+## Tools & Technologies
 
-* **Course:** Human-Computer Interaction (HCI)
-* **Team:** Kelompok 3
-* **Team Members:**
-  * Hazel Zaki Adityo
-  * Amanda Sugito
-  * Asyifa Izzatil Isma
-  * M. Aufa Mumtaza Ibadillah
-  * Vanessa Santoso
+### Design & Prototyping
+* **Figma:** Wireframing, Interactive Prototyping, Design Systems
+* **User Research:** User Personas, Journey Maps, Information Architecture
+
+### Front-End Development
+* **HTML5 / CSS3 / JavaScript**
+* **Frameworks & Libraries:** Bootstrap / Tailwind CSS / React
 
 ## Repository Structure
 
 ```text
 HCI_PROJECTS/
-├── assets/             # Screenshots, diagrams, and visual media
-├── docs/               # Research documents, presentations, and specifications
-│   ├── PPT Kelompok 3_HCI.pdf
-│   └── FIGMA HCI Kelompok 3.docx
-├── src/                # Front-end source code and web files
-└── README.md           # Project documentation
+├── assets/             # Screenshots, diagrams, and media files
+├── docs/               # Research documentation and reports
+├── src/                # Front-end source code
+└── README.md           # Repository documentation
