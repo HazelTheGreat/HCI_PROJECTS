@@ -1,35 +1,29 @@
 # Human-Computer Interaction (HCI) Projects
 
-Selamat datang di repository **HCI_PROJECTS**! Repository ini berisi dokumentasi, hasil riset UI/UX, *design prototype*, serta implementasi antarmuka pengguna (User Interface & User Experience) yang dirancang dengan pendekatan *User-Centered Design* (UCD).
+This repository contains documentation, UI/UX research, design prototypes, and user interface implementations developed using User-Centered Design (UCD) principles.
 
----
+## Overview
 
-## Ringkasan Proyek
+This project focuses on user needs analysis, human-computer interaction design, and usability testing to create intuitive, accessible, and responsive digital solutions.
 
-Proyek ini berfokus pada analisis kebutuhan pengguna, perancangan interaksi manusia dan komputer, serta pengujian *usability* untuk menciptakan solusi digital yang intuitif, aksesibel, dan responsif.
+* **Core Focus:** UI/UX Design, Wireframing, Interactive Prototyping, Usability Testing
+* **Design Approach:** Design Thinking Framework (Empathize, Define, Ideate, Prototype, Test)
 
-* **Fokus Utama:** UI/UX Design, Wireframing, Interactive Prototyping, & Usability Testing.
-* **Pendekatan Design:** *Design Thinking* (Empathize, Define, Ideate, Prototype, Test).
-
----
-
-## Alat & Teknologi (Tech Stack)
+## Tools & Technologies
 
 ### Design & Prototyping
-* **Figma / FigJam:** Wireframing, Design System, & Interactive Prototyping
-* **User Research:** Interview, User Persona, Customer Journey Map, & Information Architecture
+* **Figma / FigJam:** Wireframing, Design Systems, Interactive Prototyping
+* **User Research:** User Personas, Customer Journey Maps, Information Architecture
 
 ### Front-End Development
 * **HTML5 / CSS3 / JavaScript**
-* **Framework / Library:** (misal: Bootstrap / Tailwind CSS / React)
+* **Frameworks / Libraries:** Bootstrap / Tailwind CSS / React
 
----
-
-## Struktur Repository
+## Repository Structure
 
 ```text
 HCI_PROJECTS/
-├── assets/             # Tangkapan layar (screenshots), logo, dan media
-├── docs/               # Dokumen riset UI/UX, kuesioner, & laporan usability testing
-├── src/                # Source code antarmuka web/aplikasi
-└── README.md           # Dokumentasi utama proyek
+├── assets/             # Screenshots, logos, and media assets
+├── docs/               # UI/UX research documents and usability reports
+├── src/                # Front-end source code
+└── README.md           # Main documentation
