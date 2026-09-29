@@ -1,10 +1,10 @@
-# 🖥️ Human-Computer Interaction (HCI) Projects
+# Human-Computer Interaction (HCI) Projects
 
 Selamat datang di repository **HCI_PROJECTS**! Repository ini berisi dokumentasi, hasil riset UI/UX, *design prototype*, serta implementasi antarmuka pengguna (User Interface & User Experience) yang dirancang dengan pendekatan *User-Centered Design* (UCD).
 
 ---
 
-## 📌 Ringkasan Proyek
+## Ringkasan Proyek
 
 Proyek ini berfokus pada analisis kebutuhan pengguna, perancangan interaksi manusia dan komputer, serta pengujian *usability* untuk menciptakan solusi digital yang intuitif, aksesibel, dan responsif.
 
@@ -13,7 +13,7 @@ Proyek ini berfokus pada analisis kebutuhan pengguna, perancangan interaksi manu
 
 ---
 
-## 🛠️ Alat & Teknologi (Tech Stack)
+## Alat & Teknologi (Tech Stack)
 
 ### Design & Prototyping
 * **Figma / FigJam:** Wireframing, Design System, & Interactive Prototyping
@@ -25,7 +25,7 @@ Proyek ini berfokus pada analisis kebutuhan pengguna, perancangan interaksi manu
 
 ---
 
-## 📁 Struktur Repository
+## Struktur Repository
 
 ```text
 HCI_PROJECTS/
