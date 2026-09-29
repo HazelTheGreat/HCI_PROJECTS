@@ -1,29 +1,32 @@
 # Human-Computer Interaction (HCI) Projects
 
-This repository contains documentation, UI/UX research, design prototypes, and user interface implementations developed using User-Centered Design (UCD) principles.
+This repository contains documentation, UI/UX research, design prototypes, presentations, and source code for Human-Computer Interaction (HCI) coursework and team projects.
 
 ## Overview
 
-This project focuses on user needs analysis, human-computer interaction design, and usability testing to create intuitive, accessible, and responsive digital solutions.
+This project applies User-Centered Design (UCD) and Design Thinking principles to analyze user requirements, construct interactive wireframes and prototypes, and evaluate user interface accessibility and usability.
 
-* **Core Focus:** UI/UX Design, Wireframing, Interactive Prototyping, Usability Testing
-* **Design Approach:** Design Thinking Framework (Empathize, Define, Ideate, Prototype, Test)
+* **Core Focus:** User Research, Wireframing, Interactive Prototyping, Usability Evaluation
+* **Design Methodology:** Design Thinking Framework (Empathize, Define, Ideate, Prototype, Test)
 
-## Tools & Technologies
+## Project & Team Information
 
-### Design & Prototyping
-* **Figma / FigJam:** Wireframing, Design Systems, Interactive Prototyping
-* **User Research:** User Personas, Customer Journey Maps, Information Architecture
-
-### Front-End Development
-* **HTML5 / CSS3 / JavaScript**
-* **Frameworks / Libraries:** Bootstrap / Tailwind CSS / React
+* **Course:** Human-Computer Interaction (HCI)
+* **Team:** Kelompok 3
+* **Team Members:**
+  * Hazel Zaki Adityo
+  * Amanda Sugito
+  * Asyifa Izzatil Isma
+  * M. Aufa Mumtaza Ibadillah
+  * Vanessa Santoso
 
 ## Repository Structure
 
 ```text
 HCI_PROJECTS/
-├── assets/             # Screenshots, logos, and media assets
-├── docs/               # UI/UX research documents and usability reports
-├── src/                # Front-end source code
-└── README.md           # Main documentation
+├── assets/             # Screenshots, diagrams, and visual media
+├── docs/               # Research documents, presentations, and specifications
+│   ├── PPT Kelompok 3_HCI.pdf
+│   └── FIGMA HCI Kelompok 3.docx
+├── src/                # Front-end source code and web files
+└── README.md           # Project documentation
